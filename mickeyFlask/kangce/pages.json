@@ -1,0 +1,74 @@
+[
+  {
+    "pageName": "3032f086-4f8f-4e05-bd36-8834e92a48b8",
+    "tableName": "kc_pv_causality"
+  },
+	{
+		"pageName" : "22417574-36fe-11e7-b009-000c29ef8c08",
+		"tableName" : "document"
+	},
+  {
+    "pageName": "dd21f47d-11ff-4bf2-9e08-e629c8c6314a",
+    "tableName": "kc_pv_med_watch"
+  },
+  {
+    "pageName": "22416763-36fe-11e7-b009-000c29ef8c08",
+    "tableName": "kc_pv_patientinfo"
+  },
+  {
+    "pageName": "2241698b-36fe-11e7-b009-000c29ef8c08",
+    "tableName": "kc_pv_adverseevent"
+  },
+  {
+    "pageName": "22415b7d-36fe-11e7-b009-000c29ef8c08",
+    "tableName": "kc_pv_reportbase"
+  },
+  {
+    "pageName": "3b49cd98-760b-11e8-a602-000c29399d7c",
+    "tableName": "kc_pv_medication_reason"
+  },
+	{
+		"pageName" : "6d507942-7325-4247-89da-e7c5638bf820",
+		"tableName" : "babyinfo"
+	},
+  {
+    "pageName": "22416a28-36fe-11e7-b009-000c29ef8c08",
+    "tableName": "kc_pv_labdata"
+  },
+  {
+    "pageName": "958886cb-6ed7-11e8-a602-000c29399d7c",
+    "tableName": "kc_pv_causeofdeath"
+  },
+  {
+    "pageName": "22416aaa-36fe-11e7-b009-000c29ef8c08",
+    "tableName": "kc_pv_causality"
+  },
+  {
+    "pageName": "22416b26-36fe-11e7-b009-000c29ef8c08",
+    "tableName": "kc_pv_drug"
+  },
+  {
+    "pageName": "22416b9b-36fe-11e7-b009-000c29ef8c08",
+    "tableName": "kc_pv_othermedicalhistory"
+  },
+  {
+    "pageName": "22416c06-36fe-11e7-b009-000c29ef8c08",
+    "tableName": "kc_pv_reporter"
+  },
+  {
+    "pageName": "22416c8a-36fe-11e7-b009-000c29ef8c08",
+    "tableName": "kc_pv_reportbase"
+  },
+  {
+    "pageName": "bd46abf6-6a26-11e8-a602-000c29399d7c",
+    "tableName": "kc_pv_relatedtocode"
+  },
+  {
+    "pageName": "adf4e9c9-75f5-11e8-a602-000c29399d7c",
+    "tableName": "kc_pv_drug_dose"
+  },
+  {
+    "pageName": "22416d06-36fe-11e7-b009-000c29ef8c08",
+    "tableName": "kc_pv_reportbase"
+  }
+]

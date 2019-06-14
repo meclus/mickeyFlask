@@ -4,6 +4,9 @@ It contains the definition of routes and views for the application.
 """
 
 from flask import Flask
+
+import kangce.report_setting
+
 app = Flask(__name__)
 
 # Make the WSGI interface available at the top level so wfastcgi can get it.
@@ -11,9 +14,17 @@ wsgi_app = app.wsgi_app
 
 
 @app.route('/')
-def hello():
+@app.route('/<name>')
+def hello(name=None):
     """Renders a sample page."""
-    return "Hello World!"
+    if name:
+        return "Hello %s" % (name)
+    else:
+        return "Hello World!"
+
+@app.route("/reportsetting/sync")
+def sync_report_setting():
+    return kangce.report_setting.update()
 
 if __name__ == '__main__':
     import os
@@ -22,4 +33,5 @@ if __name__ == '__main__':
         PORT = int(os.environ.get('SERVER_PORT', '5555'))
     except ValueError:
         PORT = 5555
+    app.debug = True
     app.run(HOST, PORT)

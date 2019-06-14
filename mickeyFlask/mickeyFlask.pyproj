@@ -27,9 +27,32 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="app.py" />
+    <Compile Include="kangce\report_setting.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="kangce\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="util\config.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="util\dbHelper.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="util\file.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="util\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="kangce\pages.json" />
     <Content Include="requirements.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="kangce\" />
+    <Folder Include="util\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.Web.targets" />
   <!-- Specify pre- and post-build commands in the BeforeBuild and 
