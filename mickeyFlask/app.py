@@ -13,8 +13,8 @@ app = Flask(__name__)
 wsgi_app = app.wsgi_app
 
 
-@app.route('/')
-@app.route('/<name>')
+@app.route('/hello')
+@app.route('/hello/<name>')
 def hello(name=None):
     """Renders a sample page."""
     if name:
@@ -25,6 +25,10 @@ def hello(name=None):
 @app.route("/reportsetting/sync")
 def sync_report_setting():
     return kangce.report_setting.update()
+
+@app.route("/reportsetting/itemfield/sync")
+def sync_report_item_field():
+    return kangce.report_setting.update_item_field()
 
 if __name__ == '__main__':
     import os

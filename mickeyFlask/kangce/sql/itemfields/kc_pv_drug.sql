@@ -46,3 +46,9 @@ update kc_pv_itemfields set subfieldsname='50' where PageName='22416b26-36fe-11e
 update kc_pv_itemfields set subfieldsname='50' where PageName='22416b26-36fe-11e7-b009-000c29ef8c08' and subfieldsname='properInoculation';
 update kc_pv_itemfields set subfieldsname='50' where PageName='22416b26-36fe-11e7-b009-000c29ef8c08' and subfieldsname='vaccinationSite';
 update kc_pv_itemfields set subfieldsname='50' where PageName='22416b26-36fe-11e7-b009-000c29ef8c08' and subfieldsname='vaccineFacade';
+update kc_pv_itemfields set subfieldsname='drugContinued' where PageName='22416b26-36fe-11e7-b009-000c29ef8c08' and FieldsName='drugcontinued';
+update kc_pv_itemfields set subfieldsname='productCategory' where PageName='22416b26-36fe-11e7-b009-000c29ef8c08' and FieldsName='productCategory';
+update kc_pv_itemfields set subfieldsname='drugContinued' where PageName='22416b26-36fe-11e7-b009-000c29ef8c08' and FieldsName='drugcontinued';
+update kc_pv_itemfields set subfieldsname='productCategory' where PageName='22416b26-36fe-11e7-b009-000c29ef8c08' and FieldsName='productCategory';
+update kc_pv_itemfields set subfieldsname='drugContinued' where PageName='22416b26-36fe-11e7-b009-000c29ef8c08' and FieldsName='drugcontinued';
+update kc_pv_itemfields set subfieldsname='productCategory' where PageName='22416b26-36fe-11e7-b009-000c29ef8c08' and FieldsName='productCategory';

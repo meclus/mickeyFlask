@@ -56,3 +56,10 @@ class dbHelper(object):
         connect['cursor'].execute(sql)
         connect['conn'].commit()
         self.close(connect)
+
+    def exec_sqls(self, sqls):
+        connect = self.connect()
+        for sql in sqls:
+            connect['cursor'].execute(sql)
+        connect['conn'].commit()
+        self.close(connect)
