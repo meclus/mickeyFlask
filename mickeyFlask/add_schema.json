@@ -320,7 +320,7 @@
                     "subPage": "",
                     "subsidiaryFieldDtos": [
                         {
-                            "fieldsname": "sourceInfoId",
+                            "fieldsname": "companyReportType",
                             "icontype": "ADR必填",
                             "id": "0a5841c3-40a6-11e9-a99b-000c29399d7c",
                             "isrequired": false,
@@ -328,7 +328,7 @@
                             "value": "5f4e1f7b-1169-4894-8ec6-90439d99e013"
                         },
                         {
-                            "fieldsname": "sourceInfoId",
+                            "fieldsname": "companyReportType",
                             "icontype": "ADR必填",
                             "id": "f6c008de-2501-11e9-ab14-d663bd873d93",
                             "isrequired": false,
@@ -336,7 +336,7 @@
                             "value": "18d85d0d-8fb4-4545-9da9-193ecd3235e4"
                         },
                         {
-                            "fieldsname": "sourceInfoId",
+                            "fieldsname": "companyReportType",
                             "icontype": "ADR必填",
                             "id": "f6c1471c-2501-11e9-ab14-d663bd873d93",
                             "isrequired": false,
@@ -344,7 +344,7 @@
                             "value": "b8069829-7e30-41f2-9a5e-fb3e06033cf1"
                         },
                         {
-                            "fieldsname": "sourceInfoId",
+                            "fieldsname": "companyReportType",
                             "icontype": "ADR必填",
                             "id": "f6c14852-2501-11e9-ab14-d663bd873d93",
                             "isrequired": false,
@@ -4371,7 +4371,7 @@
                     "subPage": "",
                     "subsidiaryFieldDtos": [
                         {
-                            "fieldsname": "reporteroccupation",
+                            "fieldsname": "reporterOccupation",
                             "icontype": null,
                             "id": "f6c05212-2501-11e9-ab14-d663bd873d93",
                             "isrequired": null,
@@ -4379,36 +4379,6 @@
                             "value": "e405e56a-4e35-435c-b947-eeafea9ee28c"
                         }
                     ]
-                },
-                {
-                    "codingType": 0,
-                    "controlType": 6,
-                    "fieldsName": "learnedSAETime",
-                    "groupName": "",
-                    "iconType": "",
-                    "id": 157970,
-                    "isFutureDate": false,
-                    "isMRQcManage": false,
-                    "isPostBack": true,
-                    "isQcManage": false,
-                    "isQuery": false,
-                    "isReadonly": false,
-                    "isRequired": false,
-                    "isShowBase": true,
-                    "isShowEditReport": true,
-                    "isShowReport": true,
-                    "isWinUse": true,
-                    "itemClassId": "",
-                    "maxLen": 40,
-                    "nameChs": "获知日期",
-                    "nameEng": "learnedsaetime",
-                    "nullflavor": "",
-                    "pageName": "22416c06-36fe-11e7-b009-000c29ef8c08",
-                    "ptFields": null,
-                    "selectItemDtos": [],
-                    "sortIndex": 2090,
-                    "subPage": "",
-                    "subsidiaryFieldDtos": []
                 },
                 {
                     "codingType": 0,
@@ -4592,7 +4562,7 @@
                     "subPage": "",
                     "subsidiaryFieldDtos": [
                         {
-                            "fieldsname": "contactMethod",
+                            "fieldsname": "contactmethod",
                             "icontype": "ADR",
                             "id": "f6c06bb2-2501-11e9-ab14-d663bd873d93",
                             "isrequired": null,
@@ -4631,7 +4601,7 @@
                     "subPage": "",
                     "subsidiaryFieldDtos": [
                         {
-                            "fieldsname": "contactMethod",
+                            "fieldsname": "contactmethod",
                             "icontype": "ADR",
                             "id": "f6c04c36-2501-11e9-ab14-d663bd873d93",
                             "isrequired": null,
@@ -4670,7 +4640,7 @@
                     "subPage": "",
                     "subsidiaryFieldDtos": [
                         {
-                            "fieldsname": "contactMethod",
+                            "fieldsname": "contactmethod",
                             "icontype": null,
                             "id": "f6c04b0a-2501-11e9-ab14-d663bd873d93",
                             "isrequired": null,
@@ -4709,7 +4679,7 @@
                     "subPage": "",
                     "subsidiaryFieldDtos": [
                         {
-                            "fieldsname": "contactMethod",
+                            "fieldsname": "contactmethod",
                             "icontype": null,
                             "id": "f6c08bba-2501-11e9-ab14-d663bd873d93",
                             "isrequired": null,
@@ -4900,7 +4870,7 @@
                     "subPage": "",
                     "subsidiaryFieldDtos": [
                         {
-                            "fieldsname": "isserious",
+                            "fieldsname": "isSerious",
                             "icontype": "",
                             "id": "f6c06266-2501-11e9-ab14-d663bd873d93",
                             "isrequired": null,
@@ -7016,7 +6986,7 @@
                     "subPage": "",
                     "subsidiaryFieldDtos": [
                         {
-                            "fieldsname": "standardofSeriousness",
+                            "fieldsname": "seriousness",
                             "icontype": "ADR必填",
                             "id": "f6c09646-2501-11e9-ab14-d663bd873d93",
                             "isrequired": null,
@@ -7278,7 +7248,7 @@
                     "subPage": "",
                     "subsidiaryFieldDtos": [
                         {
-                            "fieldsname": "importantMedicalStatus",
+                            "fieldsname": "medicalhistorytype",
                             "icontype": "ADR",
                             "id": "f6c02a8a-2501-11e9-ab14-d663bd873d93",
                             "isrequired": null,
@@ -7363,7 +7333,7 @@
                     "subPage": "",
                     "subsidiaryFieldDtos": [
                         {
-                            "fieldsname": "medicalHistoryType",
+                            "fieldsname": "medicalhistorytype",
                             "icontype": "",
                             "id": "f6c021ac-2501-11e9-ab14-d663bd873d93",
                             "isrequired": null,
@@ -7448,7 +7418,7 @@
                     "subPage": "",
                     "subsidiaryFieldDtos": [
                         {
-                            "fieldsname": "medicalHistoryType",
+                            "fieldsname": "medicalhistorytype",
                             "icontype": "ADR",
                             "id": "f6c08200-2501-11e9-ab14-d663bd873d93",
                             "isrequired": null,
@@ -7487,7 +7457,7 @@
                     "subPage": "",
                     "subsidiaryFieldDtos": [
                         {
-                            "fieldsname": "medicalHistoryType",
+                            "fieldsname": "medicalhistorytype",
                             "icontype": "ADR",
                             "id": "f6c026ca-2501-11e9-ab14-d663bd873d93",
                             "isrequired": null,
@@ -7503,7 +7473,7 @@
                             "value": "6ba88b09-f16d-487f-b3f3-645961f35bce"
                         },
                         {
-                            "fieldsname": "medicalHistoryType",
+                            "fieldsname": "medicalhistorytype",
                             "icontype": "ADR",
                             "id": "f6c05c44-2501-11e9-ab14-d663bd873d93",
                             "isrequired": null,
@@ -7542,7 +7512,7 @@
                     "subPage": "",
                     "subsidiaryFieldDtos": [
                         {
-                            "fieldsname": "medicalHistoryType",
+                            "fieldsname": "medicalhistorytype",
                             "icontype": "ADR",
                             "id": "f6c0b77a-2501-11e9-ab14-d663bd873d93",
                             "isrequired": null,
@@ -7550,7 +7520,7 @@
                             "value": "269de961-07c1-45eb-9095-3984d4d3d881"
                         },
                         {
-                            "fieldsname": "medicalHistoryType",
+                            "fieldsname": "medicalhistorytype",
                             "icontype": "ADR",
                             "id": "f6c0b900-2501-11e9-ab14-d663bd873d93",
                             "isrequired": null,
@@ -7558,7 +7528,7 @@
                             "value": "e18b2b3f-ee84-4af4-a903-1f72d60a49b6"
                         },
                         {
-                            "fieldsname": "medicalHistoryType",
+                            "fieldsname": "medicalhistorytype",
                             "icontype": "ADR",
                             "id": "f6c144a6-2501-11e9-ab14-d663bd873d93",
                             "isrequired": false,

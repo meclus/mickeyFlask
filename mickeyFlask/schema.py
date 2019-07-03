@@ -16,7 +16,8 @@ companyId = "95f05fe5621f4f299771759758ab7fb0"
 def get_schema():
     login_response = kangce.user.login(baseUri)
     kangce.schema.clean_redis(pvBaseUri, login_response, companyId)
-    kangce.schema.get_schema(pvBaseUri, login_response)
+    # kangce.schema.get_schema(pvBaseUri, login_response)
+    kangce.schema.get_schema4add(pvBaseUri, login_response)
 
 
 if __name__ == "__main__":
