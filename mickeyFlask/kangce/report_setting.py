@@ -7,6 +7,7 @@ import util.file as fileUtil
 
 def update():
     sBuild = ""
+    sql_list = []
     table_conf = utilConfig.dbconnect("rm-bp18c5414gvi6244h7o.mysql.rds.aliyuncs.com",
 			    3306,
 			    "pvs", 
@@ -35,11 +36,17 @@ def update():
             for x in l:
                 if col[1]:
                     s = "update kc_pv_reportsettings set FieldsName='%s',maxLen=%s where PageName='%s' and FieldsName='%s';\n" % (col[0], col[1], page_name, x[0])
+                    if s not in sql_list:
+                        sql_list.append(s)
+                        fileUtil.write(s, "./kangce/sql/itemfields/" + table_name + ".sql")
+                        sBuild = sBuild + str(s) + "</br>"
                 else:
                     s = "update kc_pv_reportsettings set FieldsName='%s' where PageName='%s' and FieldsName='%s';\n" % (col[0], page_name, x[0])
-                i = pv_db.exec(s)
-                sBuild = sBuild + s + "</br>"
-                fileUtil.write(s, "./kangce/sql/" + table_name + ".sql")
+                    if s not in sql_list:
+                        sql_list.append(s)
+                        fileUtil.write(s, "./kangce/sql/itemfields/" + table_name + ".sql")
+                        sBuild = sBuild + str(s) + "</br>"
+                # i = pv_db.exec(s)
     return sBuild
 
 def update_item_field():
@@ -73,10 +80,10 @@ def update_item_field():
 
             l = [elem[0] for elem in report_setting_list if str.lower(elem[0]) == str.lower(item_field[1])]
             if l:
-                s = "update kc_pv_itemfields set subfieldsname='%s' where PageName='%s' and FieldsName='%s';\n" % (l[0], page_name, item_field[1])
+                s = "update kc_pv_itemfields set subfieldsname='%s' where PageName='%s' and subfieldsname='%s';\n" % (l[0], page_name, item_field[1])
                 if s not in sql_list:
                     sql_list.append(s)
                     fileUtil.write(s, "./kangce/sql/itemfields/" + table_name + ".sql")
                     sBuild = sBuild + str(s) + "</br>"
-    pv_db.exec_sqls(sql_list)
+    # pv_db.exec_sqls(sql_list)
     return sBuild

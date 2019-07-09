@@ -24,8 +24,9 @@ def get_schema(pvbaseuri, login_response):
     response = requests.get(url, headers=login_response)
     util.file.write(json.dumps(response.json(), sort_keys=True, indent=4, ensure_ascii=False), "schema.json")
     for item in response.json()['data']:
+        field_settings = dict((field['fieldsName'], field['nameChs']) for field in item['fieldDisplayDtos'])
         for field in item['fieldDisplayDtos']:
-            print('{}       {}'.format(field['fieldsName'], field['nameChs']))
-    
-def print_json(json):
-    print(json.dumps(json, sort_keys=True, indent=4, ensure_ascii=False))
+            for sub_dis in field['subsidiaryFieldDtos']:
+                # print(sub_dis['fieldsname'] in field_settings.keys())
+                if sub_dis['fieldsname'] not in field_settings.keys():
+                    print(sub_dis['fieldsname'])

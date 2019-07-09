@@ -47,21 +47,6 @@
                         {
                             "adrtext": "",
                             "adrvalue": "",
-                            "e2bvalue": "2",
-                            "id": "a7ec13d1-e72c-11e8-8921-00163e023388",
-                            "iscustom": false,
-                            "isreadonly": false,
-                            "itemclassid": "6dc45a9d-430b-4b3d-b0ee-7e8b99062692",
-                            "nameChs": "临床研究",
-                            "nameEng": "clinical research",
-                            "newadrtext": "临床研究",
-                            "opersort": 9999,
-                            "uniqueCode": "f6a10042-94d0-4f85-9dd7-d4452f676e3b",
-                            "value": 2
-                        },
-                        {
-                            "adrtext": "",
-                            "adrvalue": "",
                             "e2bvalue": "",
                             "id": "a7ebf204-e72c-11e8-8921-00163e023388",
                             "iscustom": false,
@@ -73,51 +58,6 @@
                             "opersort": 9999,
                             "uniqueCode": "b8069829-7e30-41f2-9a5e-fb3e06033cf1",
                             "value": 3
-                        },
-                        {
-                            "adrtext": "",
-                            "adrvalue": "",
-                            "e2bvalue": "",
-                            "id": "a7f0c885-e72c-11e8-8921-00163e023388",
-                            "iscustom": false,
-                            "isreadonly": false,
-                            "itemclassid": "6dc45a9d-430b-4b3d-b0ee-7e8b99062692",
-                            "nameChs": "文献报道",
-                            "nameEng": "literature report",
-                            "newadrtext": "文献报道",
-                            "opersort": 9999,
-                            "uniqueCode": "fdbafe04-925d-4c21-a6c5-cfead39bde54",
-                            "value": 4
-                        },
-                        {
-                            "adrtext": "",
-                            "adrvalue": "",
-                            "e2bvalue": "",
-                            "id": "a7ecbee6-e72c-11e8-8921-00163e023388",
-                            "iscustom": true,
-                            "isreadonly": false,
-                            "itemclassid": "6dc45a9d-430b-4b3d-b0ee-7e8b99062692",
-                            "nameChs": "反馈数据",
-                            "nameEng": "Health authortiy Cases",
-                            "newadrtext": "反馈数据",
-                            "opersort": 9999,
-                            "uniqueCode": "5f4e1f7b-1169-4894-8ec6-90439d99e013",
-                            "value": 5
-                        },
-                        {
-                            "adrtext": "",
-                            "adrvalue": "",
-                            "e2bvalue": "",
-                            "id": "a7ec09e7-e72c-11e8-8921-00163e023388",
-                            "iscustom": false,
-                            "isreadonly": false,
-                            "itemclassid": "6dc45a9d-430b-4b3d-b0ee-7e8b99062692",
-                            "nameChs": "重点监测项目",
-                            "nameEng": "Intensive Monitoring",
-                            "newadrtext": "重点监测项目",
-                            "opersort": 9999,
-                            "uniqueCode": "5a273355-e027-4b41-a26e-6cc653dee234",
-                            "value": 6
                         },
                         {
                             "adrtext": "",
@@ -329,6 +269,30 @@
                         },
                         {
                             "fieldsname": "companyReportType",
+                            "icontype": null,
+                            "id": "823e21b3-9d3b-11e9-81b0-00163e1c560c",
+                            "isrequired": false,
+                            "mark": "",
+                            "value": "289c1dc9-0ef7-4183-bf04-1dada7168228"
+                        },
+                        {
+                            "fieldsname": "companyReportType",
+                            "icontype": null,
+                            "id": "e1a8eca2-9d42-11e9-81b0-00163e1c560c",
+                            "isrequired": false,
+                            "mark": "",
+                            "value": "289c1dc9-0ef7-4183-bf04-1dada7168228"
+                        },
+                        {
+                            "fieldsname": "companyReportType",
+                            "icontype": null,
+                            "id": "e1a91a25-9d42-11e9-81b0-00163e1c560c",
+                            "isrequired": false,
+                            "mark": "",
+                            "value": "5a273355-e027-4b41-a26e-6cc653dee234"
+                        },
+                        {
+                            "fieldsname": "companyReportType",
                             "icontype": "ADR必填",
                             "id": "f6c008de-2501-11e9-ab14-d663bd873d93",
                             "isrequired": false,
@@ -350,6 +314,45 @@
                             "isrequired": false,
                             "mark": "",
                             "value": "fdbafe04-925d-4c21-a6c5-cfead39bde54"
+                        }
+                    ]
+                },
+                {
+                    "codingType": 0,
+                    "controlType": 0,
+                    "fieldsName": "sourceInfoName",
+                    "groupName": "概要信息",
+                    "iconType": "ADR",
+                    "id": 158028,
+                    "isFutureDate": false,
+                    "isMRQcManage": false,
+                    "isPostBack": true,
+                    "isQcManage": false,
+                    "isQuery": false,
+                    "isReadonly": false,
+                    "isRequired": true,
+                    "isShowBase": false,
+                    "isShowEditReport": true,
+                    "isShowReport": false,
+                    "isWinUse": true,
+                    "itemClassId": "",
+                    "maxLen": 50,
+                    "nameChs": "其它企业信息来源",
+                    "nameEng": "sourceinfoname",
+                    "nullflavor": "",
+                    "pageName": "e349e33c-112d-418f-9958-d9862f8e8ed8",
+                    "ptFields": null,
+                    "selectItemDtos": [],
+                    "sortIndex": 1060,
+                    "subPage": "",
+                    "subsidiaryFieldDtos": [
+                        {
+                            "fieldsname": "sourceInfoId",
+                            "icontype": "ADR",
+                            "id": "f6c00640-2501-11e9-ab14-d663bd873d93",
+                            "isrequired": false,
+                            "mark": "",
+                            "value": "6b7b2dc4-657c-45cf-8936-904809b33105"
                         }
                     ]
                 },
@@ -4121,6 +4124,201 @@
                 },
                 {
                     "codingType": 0,
+                    "controlType": 5,
+                    "fieldsName": "researchId",
+                    "groupName": "项目信息",
+                    "iconType": null,
+                    "id": 158020,
+                    "isFutureDate": false,
+                    "isMRQcManage": false,
+                    "isPostBack": true,
+                    "isQcManage": false,
+                    "isQuery": false,
+                    "isReadonly": true,
+                    "isRequired": true,
+                    "isShowBase": false,
+                    "isShowEditReport": true,
+                    "isShowReport": false,
+                    "isWinUse": true,
+                    "itemClassId": "",
+                    "maxLen": 0,
+                    "nameChs": "研究方案编号",
+                    "nameEng": "researchid",
+                    "nullflavor": "ASKU,NASK",
+                    "pageName": "e349e33c-112d-418f-9958-d9862f8e8ed8",
+                    "ptFields": null,
+                    "selectItemDtos": [],
+                    "sortIndex": 1100,
+                    "subPage": "",
+                    "subsidiaryFieldDtos": [
+                        {
+                            "fieldsname": "companyReportType",
+                            "icontype": null,
+                            "id": "f6c0a3e8-2501-11e9-ab14-d663bd873d93",
+                            "isrequired": null,
+                            "mark": "",
+                            "value": "f6a10042-94d0-4f85-9dd7-d4452f676e3b"
+                        }
+                    ]
+                },
+                {
+                    "codingType": 0,
+                    "controlType": 0,
+                    "fieldsName": "researchTopic",
+                    "groupName": "项目信息",
+                    "iconType": null,
+                    "id": 158019,
+                    "isFutureDate": false,
+                    "isMRQcManage": false,
+                    "isPostBack": true,
+                    "isQcManage": false,
+                    "isQuery": false,
+                    "isReadonly": true,
+                    "isRequired": false,
+                    "isShowBase": false,
+                    "isShowEditReport": true,
+                    "isShowReport": false,
+                    "isWinUse": true,
+                    "itemClassId": "",
+                    "maxLen": 255,
+                    "nameChs": "研究方案名称",
+                    "nameEng": "researchtopic",
+                    "nullflavor": "ASKU,NASK",
+                    "pageName": "e349e33c-112d-418f-9958-d9862f8e8ed8",
+                    "ptFields": null,
+                    "selectItemDtos": [],
+                    "sortIndex": 1110,
+                    "subPage": "",
+                    "subsidiaryFieldDtos": [
+                        {
+                            "fieldsname": "companyReportType",
+                            "icontype": null,
+                            "id": "f6c0369c-2501-11e9-ab14-d663bd873d93",
+                            "isrequired": null,
+                            "mark": "",
+                            "value": "f6a10042-94d0-4f85-9dd7-d4452f676e3b"
+                        }
+                    ]
+                },
+                {
+                    "codingType": 0,
+                    "controlType": 0,
+                    "fieldsName": "researchType",
+                    "groupName": "项目信息",
+                    "iconType": null,
+                    "id": 158038,
+                    "isFutureDate": false,
+                    "isMRQcManage": false,
+                    "isPostBack": true,
+                    "isQcManage": false,
+                    "isQuery": false,
+                    "isReadonly": true,
+                    "isRequired": false,
+                    "isShowBase": false,
+                    "isShowEditReport": true,
+                    "isShowReport": false,
+                    "isWinUse": true,
+                    "itemClassId": "",
+                    "maxLen": 0,
+                    "nameChs": "临床研究分类",
+                    "nameEng": "researchtype",
+                    "nullflavor": "",
+                    "pageName": "e349e33c-112d-418f-9958-d9862f8e8ed8",
+                    "ptFields": null,
+                    "selectItemDtos": [],
+                    "sortIndex": 1120,
+                    "subPage": "",
+                    "subsidiaryFieldDtos": [
+                        {
+                            "fieldsname": "companyReportType",
+                            "icontype": "",
+                            "id": "f6c00c80-2501-11e9-ab14-d663bd873d93",
+                            "isrequired": false,
+                            "mark": "",
+                            "value": "f6a10042-94d0-4f85-9dd7-d4452f676e3b"
+                        }
+                    ]
+                },
+                {
+                    "codingType": 0,
+                    "controlType": 0,
+                    "fieldsName": "studyDesign",
+                    "groupName": "项目信息",
+                    "iconType": null,
+                    "id": 158033,
+                    "isFutureDate": false,
+                    "isMRQcManage": false,
+                    "isPostBack": true,
+                    "isQcManage": false,
+                    "isQuery": false,
+                    "isReadonly": true,
+                    "isRequired": false,
+                    "isShowBase": false,
+                    "isShowEditReport": true,
+                    "isShowReport": false,
+                    "isWinUse": true,
+                    "itemClassId": "",
+                    "maxLen": 200,
+                    "nameChs": "研究设计",
+                    "nameEng": "studydesign",
+                    "nullflavor": "",
+                    "pageName": "e349e33c-112d-418f-9958-d9862f8e8ed8",
+                    "ptFields": null,
+                    "selectItemDtos": [],
+                    "sortIndex": 1130,
+                    "subPage": "",
+                    "subsidiaryFieldDtos": [
+                        {
+                            "fieldsname": "companyReportType",
+                            "icontype": null,
+                            "id": "f6c01978-2501-11e9-ab14-d663bd873d93",
+                            "isrequired": null,
+                            "mark": "",
+                            "value": "f6a10042-94d0-4f85-9dd7-d4452f676e3b"
+                        }
+                    ]
+                },
+                {
+                    "codingType": 0,
+                    "controlType": 0,
+                    "fieldsName": "operatingParties",
+                    "groupName": "项目信息",
+                    "iconType": null,
+                    "id": 158032,
+                    "isFutureDate": false,
+                    "isMRQcManage": false,
+                    "isPostBack": true,
+                    "isQcManage": false,
+                    "isQuery": false,
+                    "isReadonly": true,
+                    "isRequired": false,
+                    "isShowBase": false,
+                    "isShowEditReport": true,
+                    "isShowReport": false,
+                    "isWinUse": true,
+                    "itemClassId": "",
+                    "maxLen": 50,
+                    "nameChs": "申办方",
+                    "nameEng": "operatingparties",
+                    "nullflavor": "",
+                    "pageName": "e349e33c-112d-418f-9958-d9862f8e8ed8",
+                    "ptFields": null,
+                    "selectItemDtos": [],
+                    "sortIndex": 1140,
+                    "subPage": "",
+                    "subsidiaryFieldDtos": [
+                        {
+                            "fieldsname": "companyReportType",
+                            "icontype": null,
+                            "id": "f6c03d86-2501-11e9-ab14-d663bd873d93",
+                            "isrequired": null,
+                            "mark": "",
+                            "value": "f6a10042-94d0-4f85-9dd7-d4452f676e3b"
+                        }
+                    ]
+                },
+                {
+                    "codingType": 0,
                     "controlType": 13,
                     "fieldsName": "companyReceivedDate",
                     "groupName": "管理信息",
@@ -4178,10 +4376,89 @@
                     "sortIndex": 1170,
                     "subPage": "",
                     "subsidiaryFieldDtos": []
+                },
+                {
+                    "codingType": 0,
+                    "controlType": 6,
+                    "fieldsName": "managerReportDate",
+                    "groupName": "管理信息",
+                    "iconType": "",
+                    "id": 158014,
+                    "isFutureDate": false,
+                    "isMRQcManage": false,
+                    "isPostBack": true,
+                    "isQcManage": false,
+                    "isQuery": false,
+                    "isReadonly": true,
+                    "isRequired": false,
+                    "isShowBase": false,
+                    "isShowEditReport": true,
+                    "isShowReport": false,
+                    "isWinUse": true,
+                    "itemClassId": "",
+                    "maxLen": 200,
+                    "nameChs": "报告日期",
+                    "nameEng": "managerreportdate",
+                    "nullflavor": "",
+                    "pageName": "e349e33c-112d-418f-9958-d9862f8e8ed8",
+                    "ptFields": null,
+                    "selectItemDtos": [],
+                    "sortIndex": 1220,
+                    "subPage": "",
+                    "subsidiaryFieldDtos": [
+                        {
+                            "fieldsname": "companyReportType",
+                            "icontype": null,
+                            "id": "e1a92561-9d42-11e9-81b0-00163e1c560c",
+                            "isrequired": false,
+                            "mark": "",
+                            "value": "5f4e1f7b-1169-4894-8ec6-90439d99e013"
+                        }
+                    ]
+                },
+                {
+                    "codingType": 0,
+                    "controlType": 0,
+                    "fieldsName": "countryCenterReceiveTime",
+                    "groupName": "管理信息",
+                    "iconType": "",
+                    "id": 158015,
+                    "isFutureDate": false,
+                    "isMRQcManage": false,
+                    "isPostBack": true,
+                    "isQcManage": false,
+                    "isQuery": false,
+                    "isReadonly": true,
+                    "isRequired": false,
+                    "isShowBase": false,
+                    "isShowEditReport": true,
+                    "isShowReport": false,
+                    "isWinUse": true,
+                    "itemClassId": "",
+                    "maxLen": 200,
+                    "nameChs": "国家中心接收时间",
+                    "nameEng": "countrycenterreceivetime",
+                    "nullflavor": "",
+                    "pageName": "e349e33c-112d-418f-9958-d9862f8e8ed8",
+                    "ptFields": null,
+                    "selectItemDtos": [],
+                    "sortIndex": 1240,
+                    "subPage": "",
+                    "subsidiaryFieldDtos": [
+                        {
+                            "fieldsname": "companyReportType",
+                            "icontype": null,
+                            "id": "e1a92602-9d42-11e9-81b0-00163e1c560c",
+                            "isrequired": false,
+                            "mark": "",
+                            "value": "5f4e1f7b-1169-4894-8ec6-90439d99e013"
+                        }
+                    ]
                 }
             ],
             "fieldsName": "reportBaseDto",
             "id": "38ba3cb7-8cdb-11e9-81b0-00163e1c560c",
+            "inspection": true,
             "nameChs": "基本信息",
             "nameEng": "icsr base",
             "pageType": "Head",
@@ -4562,7 +4839,7 @@
                     "subPage": "",
                     "subsidiaryFieldDtos": [
                         {
-                            "fieldsname": "contactmethod",
+                            "fieldsname": "contactMethod",
                             "icontype": "ADR",
                             "id": "f6c06bb2-2501-11e9-ab14-d663bd873d93",
                             "isrequired": null,
@@ -4601,7 +4878,7 @@
                     "subPage": "",
                     "subsidiaryFieldDtos": [
                         {
-                            "fieldsname": "contactmethod",
+                            "fieldsname": "contactMethod",
                             "icontype": "ADR",
                             "id": "f6c04c36-2501-11e9-ab14-d663bd873d93",
                             "isrequired": null,
@@ -4640,7 +4917,7 @@
                     "subPage": "",
                     "subsidiaryFieldDtos": [
                         {
-                            "fieldsname": "contactmethod",
+                            "fieldsname": "contactMethod",
                             "icontype": null,
                             "id": "f6c04b0a-2501-11e9-ab14-d663bd873d93",
                             "isrequired": null,
@@ -4651,7 +4928,7 @@
                 },
                 {
                     "codingType": 0,
-                    "controlType": 0,
+                    "controlType": 16,
                     "fieldsName": "fax",
                     "groupName": "",
                     "iconType": "",
@@ -4679,7 +4956,7 @@
                     "subPage": "",
                     "subsidiaryFieldDtos": [
                         {
-                            "fieldsname": "contactmethod",
+                            "fieldsname": "contactMethod",
                             "icontype": null,
                             "id": "f6c08bba-2501-11e9-ab14-d663bd873d93",
                             "isrequired": null,
@@ -4899,12 +5176,27 @@
                     "isWinUse": true,
                     "itemClassId": "f4736f19-f343-4fde-ad51-62975fb26d06",
                     "maxLen": 100,
-                    "nameChs": "报告相关性",
+                    "nameChs": "报告者评价",
                     "nameEng": "reporterevaluation",
                     "nullflavor": "",
                     "pageName": "22416c06-36fe-11e7-b009-000c29ef8c08",
                     "ptFields": null,
                     "selectItemDtos": [
+                        {
+                            "adrtext": "肯定",
+                            "adrvalue": "1",
+                            "e2bvalue": null,
+                            "id": "16fdf420-8c0a-11e9-81b0-00163e1c560c",
+                            "iscustom": null,
+                            "isreadonly": false,
+                            "itemclassid": "f4736f19-f343-4fde-ad51-62975fb26d06",
+                            "nameChs": "肯定",
+                            "nameEng": "Certain",
+                            "newadrtext": "肯定",
+                            "opersort": 1000,
+                            "uniqueCode": "aa1858fd-01c0-4360-af67-48ad412791f9",
+                            "value": null
+                        },
                         {
                             "adrtext": "很可能",
                             "adrvalue": "2",
@@ -4916,38 +5208,8 @@
                             "nameChs": "很可能",
                             "nameEng": "Probable/Likely",
                             "newadrtext": "很可能",
-                            "opersort": 0,
+                            "opersort": 1010,
                             "uniqueCode": "b460f3b2-5b00-418b-83d5-e46a0a75c7c5",
-                            "value": null
-                        },
-                        {
-                            "adrtext": "无法评价",
-                            "adrvalue": "6",
-                            "e2bvalue": null,
-                            "id": "172fa435-8c0a-11e9-81b0-00163e1c560c",
-                            "iscustom": null,
-                            "isreadonly": false,
-                            "itemclassid": "f4736f19-f343-4fde-ad51-62975fb26d06",
-                            "nameChs": "无法评价",
-                            "nameEng": "Unassessable/Unclassifiable",
-                            "newadrtext": "无法评价",
-                            "opersort": 0,
-                            "uniqueCode": "54b7a46d-8483-4ac9-bc78-7cfc4198b0ae",
-                            "value": null
-                        },
-                        {
-                            "adrtext": "可能无关",
-                            "adrvalue": "4",
-                            "e2bvalue": null,
-                            "id": "172d2c42-8c0a-11e9-81b0-00163e1c560c",
-                            "iscustom": null,
-                            "isreadonly": false,
-                            "itemclassid": "f4736f19-f343-4fde-ad51-62975fb26d06",
-                            "nameChs": "可能无关",
-                            "nameEng": "Unlikely",
-                            "newadrtext": "可能无关",
-                            "opersort": 70,
-                            "uniqueCode": "555f583e-6cc9-4bd1-b5d5-1b9ce6a2580a",
                             "value": null
                         },
                         {
@@ -4961,23 +5223,38 @@
                             "nameChs": "可能",
                             "nameEng": "Possible",
                             "newadrtext": "可能",
-                            "opersort": 90,
+                            "opersort": 1020,
                             "uniqueCode": "13e579de-6aef-4d34-acab-d1fad6ea0d42",
                             "value": null
                         },
                         {
-                            "adrtext": "肯定",
-                            "adrvalue": "1",
+                            "adrtext": "可能无关",
+                            "adrvalue": "4",
                             "e2bvalue": null,
-                            "id": "16fdf420-8c0a-11e9-81b0-00163e1c560c",
+                            "id": "172d2c42-8c0a-11e9-81b0-00163e1c560c",
                             "iscustom": null,
                             "isreadonly": false,
                             "itemclassid": "f4736f19-f343-4fde-ad51-62975fb26d06",
-                            "nameChs": "肯定",
-                            "nameEng": "Certain",
-                            "newadrtext": "肯定",
-                            "opersort": 100,
-                            "uniqueCode": "aa1858fd-01c0-4360-af67-48ad412791f9",
+                            "nameChs": "可能无关",
+                            "nameEng": "Unlikely",
+                            "newadrtext": "可能无关",
+                            "opersort": 1030,
+                            "uniqueCode": "555f583e-6cc9-4bd1-b5d5-1b9ce6a2580a",
+                            "value": null
+                        },
+                        {
+                            "adrtext": "无法评价",
+                            "adrvalue": "6",
+                            "e2bvalue": null,
+                            "id": "172fa435-8c0a-11e9-81b0-00163e1c560c",
+                            "iscustom": null,
+                            "isreadonly": false,
+                            "itemclassid": "f4736f19-f343-4fde-ad51-62975fb26d06",
+                            "nameChs": "无法评价",
+                            "nameEng": "Unassessable/Unclassifiable",
+                            "newadrtext": "无法评价",
+                            "opersort": 1040,
+                            "uniqueCode": "54b7a46d-8483-4ac9-bc78-7cfc4198b0ae",
                             "value": null
                         }
                     ],
@@ -4988,6 +5265,7 @@
             ],
             "fieldsName": "reporterDtoList",
             "id": "04520e8d-ebad-11e8-a962-000c29399d7c",
+            "inspection": true,
             "nameChs": "报告者信息",
             "nameEng": "Reporter",
             "pageType": "Multiple",
@@ -6262,6 +6540,7 @@
             ],
             "fieldsName": "patientInfoDto",
             "id": "04520ae1-ebad-11e8-a962-000c29399d7c",
+            "inspection": true,
             "nameChs": "患者信息",
             "nameEng": "Patient",
             "pageType": "Single",
@@ -6560,6 +6839,7 @@
             ],
             "fieldsName": "drugDtoList",
             "id": "04520dcb-ebad-11e8-a962-000c29399d7c",
+            "inspection": true,
             "nameChs": "药物信息",
             "nameEng": "Drug",
             "pageType": "Multiple",
@@ -6658,7 +6938,7 @@
                     "subPage": "",
                     "subsidiaryFieldDtos": [
                         {
-                            "fieldsname": "eventoutcome",
+                            "fieldsname": "eventOutcome",
                             "icontype": "ADR必填",
                             "id": "f6c037d2-2501-11e9-ab14-d663bd873d93",
                             "isrequired": null,
@@ -6666,7 +6946,7 @@
                             "value": "7c9da47a-da04-47d7-a716-55fedae62381"
                         },
                         {
-                            "fieldsname": "eventoutcome",
+                            "fieldsname": "eventOutcome",
                             "icontype": "ADR必填",
                             "id": "f6c0599c-2501-11e9-ab14-d663bd873d93",
                             "isrequired": null,
@@ -6674,7 +6954,7 @@
                             "value": "1d0d03b6-a55f-473f-9d10-d507dcd0501f"
                         },
                         {
-                            "fieldsname": "eventoutcome",
+                            "fieldsname": "eventOutcome",
                             "icontype": "ADR必填",
                             "id": "f6c0abcc-2501-11e9-ab14-d663bd873d93",
                             "isrequired": null,
@@ -6998,6 +7278,7 @@
             ],
             "fieldsName": "adverseEventDtoList",
             "id": "04520b48-ebad-11e8-a962-000c29399d7c",
+            "inspection": true,
             "nameChs": "不良事件",
             "nameEng": "Adverse Event",
             "pageType": "Multiple",
@@ -7248,7 +7529,7 @@
                     "subPage": "",
                     "subsidiaryFieldDtos": [
                         {
-                            "fieldsname": "medicalhistorytype",
+                            "fieldsname": "medicalHistoryType",
                             "icontype": "ADR",
                             "id": "f6c02a8a-2501-11e9-ab14-d663bd873d93",
                             "isrequired": null,
@@ -7333,7 +7614,7 @@
                     "subPage": "",
                     "subsidiaryFieldDtos": [
                         {
-                            "fieldsname": "medicalhistorytype",
+                            "fieldsname": "medicalHistoryType",
                             "icontype": "",
                             "id": "f6c021ac-2501-11e9-ab14-d663bd873d93",
                             "isrequired": null,
@@ -7418,7 +7699,7 @@
                     "subPage": "",
                     "subsidiaryFieldDtos": [
                         {
-                            "fieldsname": "medicalhistorytype",
+                            "fieldsname": "medicalHistoryType",
                             "icontype": "ADR",
                             "id": "f6c08200-2501-11e9-ab14-d663bd873d93",
                             "isrequired": null,
@@ -7457,7 +7738,7 @@
                     "subPage": "",
                     "subsidiaryFieldDtos": [
                         {
-                            "fieldsname": "medicalhistorytype",
+                            "fieldsname": "medicalHistoryType",
                             "icontype": "ADR",
                             "id": "f6c026ca-2501-11e9-ab14-d663bd873d93",
                             "isrequired": null,
@@ -7465,7 +7746,7 @@
                             "value": "269de961-07c1-45eb-9095-3984d4d3d881"
                         },
                         {
-                            "fieldsname": "importantmedicalstatus",
+                            "fieldsname": "importantMedicalStatus",
                             "icontype": "",
                             "id": "f6c04772-2501-11e9-ab14-d663bd873d93",
                             "isrequired": null,
@@ -7473,7 +7754,7 @@
                             "value": "6ba88b09-f16d-487f-b3f3-645961f35bce"
                         },
                         {
-                            "fieldsname": "medicalhistorytype",
+                            "fieldsname": "medicalHistoryType",
                             "icontype": "ADR",
                             "id": "f6c05c44-2501-11e9-ab14-d663bd873d93",
                             "isrequired": null,
@@ -7512,7 +7793,7 @@
                     "subPage": "",
                     "subsidiaryFieldDtos": [
                         {
-                            "fieldsname": "medicalhistorytype",
+                            "fieldsname": "medicalHistoryType",
                             "icontype": "ADR",
                             "id": "f6c0b77a-2501-11e9-ab14-d663bd873d93",
                             "isrequired": null,
@@ -7520,7 +7801,7 @@
                             "value": "269de961-07c1-45eb-9095-3984d4d3d881"
                         },
                         {
-                            "fieldsname": "medicalhistorytype",
+                            "fieldsname": "medicalHistoryType",
                             "icontype": "ADR",
                             "id": "f6c0b900-2501-11e9-ab14-d663bd873d93",
                             "isrequired": null,
@@ -7528,7 +7809,7 @@
                             "value": "e18b2b3f-ee84-4af4-a903-1f72d60a49b6"
                         },
                         {
-                            "fieldsname": "medicalhistorytype",
+                            "fieldsname": "medicalHistoryType",
                             "icontype": "ADR",
                             "id": "f6c144a6-2501-11e9-ab14-d663bd873d93",
                             "isrequired": false,
@@ -7567,7 +7848,7 @@
                     "subPage": "",
                     "subsidiaryFieldDtos": [
                         {
-                            "fieldsname": "medicalhistorystillcontinue",
+                            "fieldsname": "medicalHistoryStillContinue",
                             "icontype": "ADR",
                             "id": "f6c0b4dc-2501-11e9-ab14-d663bd873d93",
                             "isrequired": null,
@@ -7579,6 +7860,7 @@
             ],
             "fieldsName": "otherMedicalHistoryDtoList",
             "id": "04520e20-ebad-11e8-a962-000c29399d7c",
+            "inspection": true,
             "nameChs": "相关病史",
             "nameEng": "Other Medical History",
             "pageType": "Multiple",

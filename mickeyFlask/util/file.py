@@ -15,6 +15,6 @@ def write(message, file_name):
     :param file_name        文件名
     """
     mkdirs(file_name)
-    t = codecs.open(file_name, "w")
+    t = codecs.open(file_name, "w", encoding='utf-8')
     t.write(message)
     t.close()
