@@ -59,3 +59,9 @@ def config_item(pvbaseuri, login_response):
     url = "{}/config/item/getItemsByItemClassIds?String[] itemClassIds=d696ed59-52a1-46bb-ae56-72101abc79bd&String[] itemClassIds=2dfcb1fa-7358-4996-9467-b672fa902d80".format(pvbaseuri)
     response = requests.get(url, headers=login_response)
     util.tool.print_json(response.json())
+
+def validator_r3(pvbaseuri, login_response, id):
+    url = "{}/icsr/validator/{}/e2b/r3".format(pvbaseuri, id)
+    print(url)
+    response = requests.get(url, headers=login_response)
+    util.tool.print_json(response.json())

@@ -21,8 +21,10 @@ def get_schema4add(pvbaseuri, login_response):
 
 def get_schema(pvbaseuri, login_response):
     url = "{}/icsr/schema/report".format(pvbaseuri)
+    print(url)
     response = requests.get(url, headers=login_response)
     util.file.write(json.dumps(response.json(), sort_keys=True, indent=4, ensure_ascii=False), "schema.json")
+    #print(response.json())
     for item in response.json()['data']:
         field_settings = dict((field['fieldsName'], field['nameChs']) for field in item['fieldDisplayDtos'])
         for field in item['fieldDisplayDtos']:

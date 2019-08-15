@@ -1,0 +1,238 @@
+{
+    "account": null,
+    "adrSubmitType": null,
+    "password": null,
+    "report": {
+        "autopsy": "无",
+        "autopsyResults": [],
+        "casenarrative": "患者姓名里斯三，性别女，年龄18， 不良事件名称:无，",
+        "causeOfDeathList": [
+            ""
+        ],
+        "companyreview": null,
+        "country": "中国 内地",
+        "countryNumber": null,
+        "dateofdeath": "屏蔽的",
+        "fastReport": null,
+        "firstReceiveDate": null,
+        "firstReport": "随访报告",
+        "harmReport": "严重",
+        "id": "305a86aca07d40bb87790f5d6c3fe3c8",
+        "medDRAVersion": null,
+        "mergeDrugList": [],
+        "notes": null,
+        "outsideReport": null,
+        "receivedfromid": null,
+        "relatedtocodeList": null,
+        "reportCode": "2019kangce00167",
+        "reportSource": "医疗机构",
+        "reporterCareer": null,
+        "reporterEvaluation": null,
+        "reporterMail": "229758024@163.cpm",
+        "reporterName": "李四",
+        "reporterPhone": "18458163206",
+        "reporterUnit": null,
+        "sourceinfoname": null,
+        "suspectDrugList": [
+            {
+                "actionTakenForSuspectDrug": null,
+                "brandName": "青霉素剂型123",
+                "diseaseList": [
+                    ""
+                ],
+                "genericName": "123",
+                "id": "904ade3125f04596a1c3f6321c2f6edf",
+                "licenceNumber": "A00001",
+                "manufacturer": null,
+                "spec": null,
+                "specialCaseList": null,
+                "systemtmDrugDoseDtList": [
+                    {
+                        "batchNumber": null,
+                        "doseForm": null,
+                        "durationNumber": null,
+                        "durationUnit": null,
+                        "endDate": null,
+                        "expirationDate": null,
+                        "frequency": null,
+                        "frequencyUnit": null,
+                        "id": "11a5139560464d27bddbe49ea208395f",
+                        "routeOfAdministration": null,
+                        "startDate": null,
+                        "usageDose": null,
+                        "usageDoseUnit": null
+                    }
+                ],
+                "usageDay": null,
+                "usageDayUnit": null
+            },
+            {
+                "actionTakenForSuspectDrug": null,
+                "brandName": null,
+                "diseaseList": [
+                    ""
+                ],
+                "genericName": "阿莫西林",
+                "id": "daf8e40383e545a58eab9e5fe91f5ce7",
+                "licenceNumber": null,
+                "manufacturer": null,
+                "spec": null,
+                "specialCaseList": null,
+                "systemtmDrugDoseDtList": [
+                    {
+                        "batchNumber": null,
+                        "doseForm": null,
+                        "durationNumber": null,
+                        "durationUnit": null,
+                        "endDate": null,
+                        "expirationDate": null,
+                        "frequency": null,
+                        "frequencyUnit": null,
+                        "id": "1742bf16cdcd43ed996d17a04406b640",
+                        "routeOfAdministration": null,
+                        "startDate": null,
+                        "usageDose": null,
+                        "usageDoseUnit": null
+                    }
+                ],
+                "usageDay": null,
+                "usageDayUnit": null
+            },
+            {
+                "actionTakenForSuspectDrug": null,
+                "brandName": "青霉素剂型",
+                "diseaseList": [
+                    ""
+                ],
+                "genericName": "123",
+                "id": "efc7e09321d64cef9edd2cf596232d15",
+                "licenceNumber": null,
+                "manufacturer": null,
+                "spec": null,
+                "specialCaseList": null,
+                "systemtmDrugDoseDtList": [
+                    {
+                        "batchNumber": null,
+                        "doseForm": null,
+                        "durationNumber": null,
+                        "durationUnit": null,
+                        "endDate": null,
+                        "expirationDate": null,
+                        "frequency": null,
+                        "frequencyUnit": null,
+                        "id": "5ebee04995af4644bed9c4174055abc5",
+                        "routeOfAdministration": null,
+                        "startDate": null,
+                        "usageDose": null,
+                        "usageDoseUnit": null
+                    }
+                ],
+                "usageDay": null,
+                "usageDayUnit": null
+            }
+        ],
+        "systemAdrFileList": null,
+        "systemAdverseEvent": {
+            "eventList": [
+                {
+                    "durationNumber": null,
+                    "durationUnit": null,
+                    "endDate": null,
+                    "eventDate": "2019-07-06",
+                    "eventName": "无",
+                    "eventTerm": null,
+                    "id": "8eca0cd69d3740f38a2e472e02c8df65",
+                    "results": null,
+                    "severity": "是",
+                    "standardofseriousnessList": []
+                }
+            ]
+        },
+        "systemCausalityList": [
+            {
+                "adverseeventid": "8eca0cd69d3740f38a2e472e02c8df65",
+                "dechallenge": null,
+                "drugId": "daf8e40383e545a58eab9e5fe91f5ce7",
+                "drugName": "阿莫西林",
+                "evaluation": "",
+                "eventName": null,
+                "id": "10f9b8183c6d435986b0335c593167be",
+                "isKnow": "是",
+                "rechallenge": null
+            },
+            {
+                "adverseeventid": "8eca0cd69d3740f38a2e472e02c8df65",
+                "dechallenge": null,
+                "drugId": "904ade3125f04596a1c3f6321c2f6edf",
+                "drugName": "123",
+                "evaluation": "",
+                "eventName": null,
+                "id": "ba08b27f6d6e4f9ebd4c252f7115d4aa",
+                "isKnow": "",
+                "rechallenge": null
+            }
+        ],
+        "systemLabDataList": [
+            {
+                "adrResult": null,
+                "description": null,
+                "highValue": null,
+                "id": "7f785326c78f4242b6f82fc4d59f934b",
+                "labDate": null,
+                "labName": null,
+                "labResult": null,
+                "labResultNumber": null,
+                "labResultUnit": null,
+                "labnormalrange": null,
+                "lowValue": null,
+                "normalUniut": null,
+                "resultunstructureddata": null
+            }
+        ],
+        "systemPatient": {
+            "age": "18",
+            "ageAttimeOfOnsetunit": null,
+            "allergnInput": null,
+            "allergy": null,
+            "brithDate": "2019-07-09",
+            "country": null,
+            "drinking": null,
+            "drinkingInput": null,
+            "drugReaction": null,
+            "gender": "女",
+            "height": null,
+            "hospital": null,
+            "id": "409db0eee8b547ab87c2571438ebec1e",
+            "medicalNo": null,
+            "nation": null,
+            "otherHistory": null,
+            "otherHistoryInput": null,
+            "patientName": "里斯三",
+            "phone": null,
+            "race": null,
+            "smoking": null,
+            "smokingInput": null,
+            "systemPrevDrugEventList": null,
+            "systemRelatedDiseaseList": null,
+            "weight": null
+        },
+        "systemPregnancyInfo": {
+            "age": null,
+            "brithDate": null,
+            "detailsofpregnancy": null,
+            "diseaseList": null,
+            "drugReactionList": null,
+            "gender": null,
+            "height": null,
+            "lastMenstrualTime": null,
+            "name": null,
+            "weight": null
+        },
+        "systemRelatedEquipment": null,
+        "unitAddress": null,
+        "unitContact": null,
+        "unitPhone": null
+    },
+    "reportId": null,
+    "taskId": null
+}
